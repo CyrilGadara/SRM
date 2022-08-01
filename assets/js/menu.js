@@ -1,0 +1,2 @@
+function showHideNav(){const e=document.querySelector(".menu"),s=document.querySelector(".menu i"),t=document.querySelector(".mobileNav");e.addEventListener("click",(()=>{t.classList.toggle("showNav"),"bx-menu"===s.classList[1]?(s.classList.remove("bx-menu"),s.classList.add("bx-x")):(s.classList.add("bx-menu"),s.classList.remove("bx-x"))}))}export{showHideNav};
+//# sourceMappingURL=menu.js.map

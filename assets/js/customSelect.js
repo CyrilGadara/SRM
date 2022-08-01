@@ -1,0 +1,2 @@
+function customSelectTag(e){const t=document.querySelector(`#${e} .selectButton`),c=document.querySelector(`#${e} .customSelectOptions`),o=document.querySelectorAll(`#${e} .option`),n=document.querySelector(`#${e} .selectButtonLabel`);function l(){c.classList.toggle("hideOptions")}t.addEventListener("click",(e=>{e.preventDefault(),l()})),o.forEach((e=>{e.addEventListener("click",(e=>{!function(e){const t=document.querySelector(`label[for="${e.target.id}"]`).innerText;n.innerText=t,l()}(e)}))}))}export{customSelectTag};
+//# sourceMappingURL=customSelect.js.map

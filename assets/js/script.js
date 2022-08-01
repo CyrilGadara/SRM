@@ -1,0 +1,2 @@
+console.log("working");import{showHideNav}from"./menu.js";import{customSelectTag}from"./customSelect.js";showHideNav(),customSelectTag("purpose"),customSelectTag("gender");
+//# sourceMappingURL=script.js.map
